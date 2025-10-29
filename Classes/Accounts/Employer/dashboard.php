@@ -27,6 +27,11 @@ $jobs = $employ->getJobs(); // assuming this returns an array of jobs
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo htmlspecialchars($account); ?> Dashboard</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png"
+    href="../../../images/Black_and_white_minimalist_jewelry_logo-removebg-preview2.png">
+
+
+  <title>Job listing Application</title>
 </head>
 
 <body class="bg-gray-100 text-gray-800 font-sans min-h-screen flex flex-col">
@@ -34,7 +39,8 @@ $jobs = $employ->getJobs(); // assuming this returns an array of jobs
   <!-- Navbar -->
   <nav class="bg-indigo-700 text-white shadow-md">
     <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-      <h1 class="text-xl font-semibold">Job Portal</h1>
+      <img src="../../../images/Black_and_white_minimalist_jewelry_logo-removebg-preview.png"
+        class="w-[100px] h-[100px]" alt="">
       <div class="flex items-center space-x-4">
         <span class="text-sm">Welcome, <strong><?php echo htmlspecialchars(strtoupper($username)); ?></strong></span>
         <a href="../../../logout.php" class="text-sm bg-indigo-500 hover:bg-indigo-600 px-3 py-1 rounded">Logout</a>

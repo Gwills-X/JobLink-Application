@@ -12,14 +12,18 @@ $error = new SignupView()
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign Up / Login | JobLink</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="images/Black_and_white_minimalist_jewelry_logo-removebg-preview2.png">
+
+
+  <title>Job listing Application</title>
 </head>
 
 <body class="bg-gray-50 min-h-screen flex flex-col">
 
   <!-- Header -->
-  <header class="bg-white shadow-sm py-4">
+  <header class="bg-white shadow-sm ">
     <div class="max-w-6xl mx-auto flex justify-between items-center px-6">
-      <h1 class="text-2xl font-bold text-blue-600">JobLink</h1>
+      <img src="images/Black_and_white_minimalist_jewelry_logo-removebg-preview.png" class="w-[100px] h-[100px]" alt="">
       <a href="./index.php" class="text-blue-600 hover:underline">← Back to Home</a>
     </div>
   </header>

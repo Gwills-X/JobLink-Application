@@ -13,6 +13,8 @@ $jobs = $signupControl->showAllJobs();
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="images/Black_and_white_minimalist_jewelry_logo-removebg-preview2.png">
+
 
   <title>Job listing Application</title>
 </head>
@@ -20,8 +22,8 @@ $jobs = $signupControl->showAllJobs();
 <body class="bg-gray-50 text-gray-800">
   <!-- Header -->
   <header class="bg-white shadow-sm sticky top-0 z-10">
-    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-      <h1 class="text-3xl font-bold text-indigo-700">JobLink</h1>
+    <div class="max-w-7xl mx-auto px-6  flex justify-between items-center">
+      <img src="images/Black_and_white_minimalist_jewelry_logo-removebg-preview.png" class="w-[100px] h-[100px]" alt="">
       <a href="./signup.login.php"
         class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition">Sign Up / Login</a>
     </div>
